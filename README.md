@@ -10,15 +10,15 @@ China OSS Tour — Vue.js
 
 ##1. Project Introduction | 项目简介
 
-English
+**English**
 Vue.js is a progressive frontend framework created by Chinese developer Evan You. It is widely used around the world for its simplicity, flexibility, and complete ecosystem. It is one of the most influential open-source projects from China.
 Vue.js 是由中国开发者尤雨溪创建的渐进式前端框架，以简洁、灵活、生态完善著称，被全球大量企业与开发者使用，是中国最具影响力的开源项目之一。
 
-2. Why I Chose This Project | 选择理由
+##2. Why I Chose This Project | 选择理由
 Vue is a typical and high-quality Chinese open-source project with a healthy community, clear documentation, and active maintenance. It is very suitable for learning Git and open-source collaboration.
 Vue 是典型且优质的中国开源项目，社区健康、文档清晰、维护活跃，非常适合练习 Git 操作与理解开源协作模式。
 
-##Task 1: Clone and First Look | 任务一：克隆与初探
+##3. Task 1: Clone and First Look | 任务一：克隆与初探
 
 #Total commits: About 3,300 First commit: 2013-07-13, Evan You, "initial commit" Repository size: ~20MB Top-level folders: src, dist, test, examples, packages, types 中文 总提交数：约 3300 首次提交：2013-07-13，Evan You，initial commit 仓库大小：约 20MB 顶层目录：src 源码、dist 构建产物、test 测试、examples 示例、packages 多包管理
 #git clone https://github.com/vuejs/vue.git
@@ -30,12 +30,12 @@ ls -la
   
 ##Task 2: Meet the Community | 任务二：认识社区
 
-English
+**English**
 • Top 15 contributors: Evan You, Eduardo San Martin Morote, Rahim Alizada, LinusBorg, etc.
 • Commits in last 6 months: More than 100 (active)
 • Maintainers: Vue Core Team led by Evan You
 • Governance: Independent community project, not controlled by a single company
-中文
+**中文**
 • 前15名贡献者：尤雨溪、Eduardo San Martin Morote、Rahim Alizada、LinusBorg 等
 • 近6个月提交数：100+，持续活跃
 • 维护者：以尤雨溪为首的 Vue 核心团队
@@ -45,12 +45,12 @@ git log --since="6 months ago" --oneline | wc -l
   
 ##Task 3: Reading One Commit | 任务三：读懂一次提交
 
-English
+**English**
   • Commit hash: 1a2b3c4d (example: fix reactivity for object properties)
   • Reason: It fixes a common reactivity bug that many developers may encounter.
   • Change: Fixed the observation logic of object properties.
   • Learning: The code is clean, well-commented, and follows strict engineering standards.
-  中文
+  **中文**
   • 提交哈希：1a2b3c4d（示例：修复对象属性响应式问题）
   • 选择原因：该提交修复了日常开发中常见的响应式失效问题，非常实用。
   • 修改内容：修正了对象属性的监听逻辑，确保数据更新能触发视图渲染。
@@ -98,5 +98,6 @@ du -sh .git
 ls -la
 git shortlog -sn | head -15
 git log --since="6 months ago" --oneline | wc -l<br/>git log --grep="fix" --oneline | head -10
-git show <commit-hash><br/>git show <commit-hash> --stat
+git show <commit-hash>
+git show <commit-hash> --stat
 

@@ -21,7 +21,7 @@ Vue 是典型且优质的中国开源项目，社区健康、文档清晰、维�
 ##Task 1: Clone and First Look | 任务一：克隆与初探
 
 #Total commits: About 3,300 First commit: 2013-07-13, Evan You, "initial commit" Repository size: ~20MB Top-level folders: src, dist, test, examples, packages, types 中文 总提交数：约 3300 首次提交：2013-07-13，Evan You，initial commit 仓库大小：约 20MB 顶层目录：src 源码、dist 构建产物、test 测试、examples 示例、packages 多包管理
-git clone https://github.com/vuejs/vue.git
+#git clone https://github.com/vuejs/vue.git
 cd vue
 git log --oneline | wc -l
 git log --reverse --oneline | head -5
@@ -40,7 +40,7 @@ English
 • 近6个月提交数：100+，持续活跃
 • 维护者：以尤雨溪为首的 Vue 核心团队
 • 所属组织：独立社区项目，不属于单一企业
-git shortlog -sn | head -15
+#git shortlog -sn | head -15
 git log --since="6 months ago" --oneline | wc -l
   
 ##Task 3: Reading One Commit | 任务三：读懂一次提交
@@ -62,7 +62,7 @@ English
   ##Task 4: Health Checkup | 任务四：健康检查
   
   #	Signal (EN)	信号 (ZH)	Status	Reason
-  1	Recent commits within 6 months	近6个月有提交		Very active in recent months
+  #1	Recent commits within 6 months	近6个月有提交		Very active in recent months
   2	Maintainers reply to issues	维护者回复issue		Team members reply quickly
   3	PRs reviewed in time	PR及时审查		Most PRs reviewed within days
   4	Not dependent on one person	不依赖单人		Many core developers contribute
@@ -79,7 +79,7 @@ English
 Vue 最让我惊讶的是它从个人开发者起步，成长为全球数百万开发者使用的顶级框架。它完全遵循全球开源规范：拥有明确的开源协议、完善的文档、活跃的社区与标准化的贡献流程。同时它也具有中国特色：对中文开发者友好、中文文档齐全、设计风格追求简洁易用。如果我进行第一次贡献，我会帮助翻译文档、修正错别字、完善示例代码或提交简单的 bug 报告。这次探索让我深刻理解开源精神的重要性，也看到中国开源项目在全球的影响力不断提升。
  
  ##Commands Reference | 命令参考
- git clone https://github.com/vuejs/vue.git
+ #git clone https://github.com/vuejs/vue.git
 cd vue
 git log --oneline | wc -l
 git log --reverse --oneline | head -5
